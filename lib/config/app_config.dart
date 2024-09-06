@@ -101,6 +101,10 @@ class AppConfig {
           'You are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.',
     ),
   ];
+
+  // Landing page layout configuration
+  static const bool useAlternativeFeatureLayout =
+      false; // Set to true to use the new layout
 }
 
 class Feature {
