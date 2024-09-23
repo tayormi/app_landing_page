@@ -21,6 +21,17 @@
         @apply bg-gray-700 hover:bg-gray-600 text-white;
     }
 
+    .pixel-mask {
+        position: relative;
+        width: 310px;
+        height: 680px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 30px;
+        box-shadow: 0 0 0 12px #2b2b2b, 0 0 0 14px #1e1e1e, 0 0 0 22px #101010;
+        background-color: #000;
+    }
+
     .iphone-mask {
         position: relative;
         width: 300px;
